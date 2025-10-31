@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Amigos - JSON</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>👋 Mi lista de amigos</h1>
+
+  <div class="form">
+    <input type="text" id="nombre" placeholder="Nombre del amigo">
+    <input type="number" id="edad" placeholder="Edad">
+    <button id="agregarBtn">Agregar</button>
+  </div>
+
+  <h3>Amigos guardados:</h3>
+  <ul id="lista"></ul>
+
+  <button id="guardarBtn">💾 Guardar en JSON</button>
+  <button id="cargarBtn">📂 Cargar desde JSON</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
